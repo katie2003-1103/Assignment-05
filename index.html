@@ -19,19 +19,19 @@
     <form id="empForm">
      <div class="mb-3">
     <label for="id" class="form-label">8-Digit Employee Id</label><br>
-    <input type="text" class="form-control" id="id" required>
+    <input type="text" class="form-control" autocomplete="username" id="id" required/>
   </div>
   <div class="mb-3">
     <br><label for="name" class="form-label">Name</label><br>
-    <input type="text" class="form-control" id="name" required>
+    <input type="text" class="form-control" autocomplete="name" id="name" required/>
   </div>
   <div class="mb-3">
     <br><label for="ext" class="form-label">4 Digit Extension</label><br>
-    <input type="text" class="form-control" id="ext" required>
+    <input type="text" class="form-control" id="ext" required/>
   </div>
   <div class="mb-3">
     <br><label for="email" class="form-label">Email address</label><br>
-    <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+    <input type="email" class="form-control" autocomplete="email" id="email" aria-describedby="emailHelp"/>
   </div>
 <div class="mb-3">
     <br><label for="department" class="form-label">Department</label><br>
@@ -44,71 +44,8 @@
         <option value="sales">Sales</option>
     </select>
 </div>
-  <br><button style="background-color: Blue; color: white; 
-  padding: 10px 20px; border-radius: 5px; border-color: lightBlue"; id = "submit">Add Employee</button>
+  <br><button type="submit" style="background-color: Blue; color: white; 
+  padding: 10px 20px; border-radius: 5px; border-color: lightBlue;" id = "submit">Add Employee</button>
 </form>
 </body>
 </html>
-
-<!--/MY VERSION
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>m6 Assignment</title>
-<script src="script.js" defer></script>
-</head>
-<body>
-  <h1>Employee Management System</h1>
-  <form>
-  <div class="mb-3">
-    <label for="id" class="form-label">8-Digit Employee Id</label><br>
-    <input type="text" class="form-control" id="id" required>
-  </div>
-  <div class="mb-3">
-    <br><label for="name" class="form-label">Name</label><br>
-    <input type="text" class="form-control" id="name" required>
-  </div>
-  <div class="mb-3">
-    <br><label for="ext" class="form-label">4 Digit Extension</label><br>
-    <input type="text" class="form-control" id="ext" required>
-  </div>
-  <div class="mb-3">
-    <br><label for="email" class="form-label">Email address</label><br>
-    <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
-  </div>-->
-    <!--<div class="mb-3">
-    <label for="department" class="form-label">Department</label><br>
-    <input type="select" class="form-control" id="department" required> -->
-      <!--<details>
-      <summary>Administrative</summary>
-      <ul>
-        <li> Engineering</li>
-       <li>Executive</li>
-       <li>Marketing</li>
-       <li>Quality Assurance</li>
-       <li>Sales</li>
-      </ul>
-       </details>-->
-<!--<div class="mb-3">
-    <br><label for="department" class="form-label">Department</label><br>
-    <select class="form-control" id="department" name="department" required>
-        <option value="">Select a Department</option>
-        <option value="engineering">Engineering</option>
-        <option value="executive">Executive</option>
-        <option value="marketing">Marketing</option>
-        <option value="quality_assurance">Quality Assurance</option>
-        <option value="sales">Sales</option>
-    </select>
-</div>
-    
-  </div>-->
-  <!-- <button id="submit">Add Employee</button>
-  <br><button style="background-color: Blue; color: white; 
-  padding: 10px 20px; border-radius: 5px; border-color: lightBlue"; id = "submit">Add Employee</button> -->
-  <!-- <input type="submit" class="form-control" id="submit" required> -->
-  <!-- <button type="submit" class="btn btn-primary">Add Employee</button> -->
-<!--</form>
-</body>
-</html>--->

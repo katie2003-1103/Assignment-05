@@ -1,10 +1,5 @@
 // VARIABLES 
-let id 
-let name
-let ext 
-let email  
-let department  
-let submit
+let id, name, ext, email, department, submit 
 
 // HELPER FUNCTION TO RETURN DOM ELEMENTS 
 id = document.getElementById('id')
@@ -21,10 +16,3 @@ console.log('Name:', name.value)
 console.log('Extension:', ext.value) 
 console.log('Email:', email.value) 
 console.log('Department:', department.value); })
-
-// const id = document.getElementById('id');
-   // const name = document.getElementById('name');
-   // const ext = document.getElementById('ext');
-   // const email = document.getElementById('email');
-   // const department = document.getElementById('department');
-   // const submit = document.getElementById('submit');
